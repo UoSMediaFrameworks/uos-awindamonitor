@@ -1,0 +1,1 @@
+C:\Program Files\Xsens\MT Software Suite 4.6\MT SDK\Examples\awindamonitor_csharp\win32\Debug\Out\AwindaMonitor CSharp 32bit Example.exe.config
