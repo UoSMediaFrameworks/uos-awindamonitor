@@ -514,12 +514,12 @@ namespace AwindaMonitor
                     _connectedMtwData[e.Device.deviceId().toInt()]._orientation = oriEuler;
                 }
 
-                /*if (e.Packet.containsCalibratedAcceleration())
+                if (e.Packet.containsCalibratedAcceleration())
                 {
                     XsVector calAcc = e.Packet.calibratedAcceleration();
 
                     _connectedMtwData[e.Device.deviceId().toInt()]._calibratedAcceleration = calAcc;
-                }*/
+                }
                 
 				// -- Determine effective update rate percentage --
 

@@ -355,7 +355,7 @@ namespace Xsens
             }
         }
 
-        /*private XsVector _calibratedAcc;
+        private XsVector _calibratedAcc;
         public XsVector _calibratedAcceleration
         {
             get
@@ -367,10 +367,10 @@ namespace Xsens
                 _calibratedAcc = value;
                 _containsCalibratedAcceleration = true;
             }
-        }*/
+        }
 		
         public bool _containsOrientation { get; set; }
-		/*public bool _containsCalibratedAcceleration { get; set; }*/
+		public bool _containsCalibratedAcceleration { get; set; }
 
 		public ConnectedMTwData()
 		{
@@ -380,9 +380,9 @@ namespace Xsens
             _frameSkipsList = new List<int>();
             _sumFrameSkips = 0;
             _ori = new XsEuler(0.0, 0.0, 0.0);
-            /*_calibratedAcc = new XsVector(0.0, 0.0, 0.0);
+            _calibratedAcc = new XsVector();
             _containsOrientation = false;
-            _containsCalibratedAcceleration = false;*/
+            _containsCalibratedAcceleration = false;
 		}	
 	}
 }
